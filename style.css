@@ -1,0 +1,16 @@
+body {
+  background: black;
+  color: white;
+  font-family: consolas;
+}
+.random-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+#content span {
+  width: 30px;
+  display: inline-block;
+  font-size: 38px;
+}
