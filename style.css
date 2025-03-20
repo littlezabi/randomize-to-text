@@ -7,10 +7,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+flex-direction: column;
   height: 90vh;
+}
+#content {
+    height: 100px;
 }
 #content span {
   width: 30px;
   display: inline-block;
   font-size: 38px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background: #f1c40f;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
 }
